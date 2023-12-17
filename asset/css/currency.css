@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#form2 {
+  margin-top: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+
+input[name="submit"][value="Go Back"] {
+  background-color: #2980b9;
+  color: #fff; 
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[name="submit"][value="Go Back"]:hover {
+  background-color: #45a049; 
+}
+
+
+input[name="submit"][value="Conversion History"] {
+  background-color: #8a99ee; 
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[name="submit"][value="Conversion History"]:hover {
+  background-color: #45a049;
+}
+
+#conversionResult {
+  margin-top: 20px;
+}
+
+#error-message {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  color: #2980b9;
+}
